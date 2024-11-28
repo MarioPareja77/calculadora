@@ -34,6 +34,11 @@ public class AppCalculadora {
             resultat = c.sumar(num1, num2);
             break;
 
+         case "-":
+            resultat = c.restart(num1, num2);
+            break;
+
+
          default:
             System.out.println("Operació no vàlida");
             return;
